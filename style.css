@@ -1,0 +1,131 @@
+.navbar-default
+{
+    background-color: lightgoldenrodyellow;
+    z-index:15;
+    width:100%;
+    top:0;
+    
+}
+li
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style-type: none;
+}
+ul li
+{
+    padding: 2px;
+    margin-left: 35px;
+}
+img
+{
+  width:100%; 
+  
+}
+.desert_dune_list
+{
+    list-style: none;
+    border:0;
+    box-shadow:none;
+    border-radius: 0;
+    position:relative;
+    display: inline-block;
+    float: left;
+    padding-top: 5px;
+    color: white;
+
+    
+}
+.desert_dune_list li a
+{
+    color: white;
+}
+
+.newmenu 
+{
+    display: none;
+    width:100%;
+    left: 0px;
+    top:50px;
+    bottom:auto;
+    position: fixed;
+    min-height:305px;
+    z-index:10;
+
+}
+.drop:hover>.newmenu
+    {
+        display: block;
+    }
+
+
+.swap-on-hover:hover > .swap-on-hover__front-image{
+    opacity: 0;
+    
+  }
+  .swap-on-hover .swap-on-hover__front-image {
+    z-index: 9999;
+    transition: opacity .5s linear;
+    cursor: pointer;
+  }
+  .swap-on-hover img {
+    position: absolute;
+    top:0;
+    left:0;
+      overflow: hidden;
+      /* Sets the width and height for the images*/
+      width: 300px;
+      height: 300px;
+  }
+  .swap-on-hover {
+    position: relative;	
+      margin:  0 auto;
+      max-width: 400px;
+      
+  }
+  h1
+  {
+    text-align: center;
+  }
+ .col-sm-3 li a
+   {
+    margin-left: 100px;
+    color: darkcyan;
+    font-size: 20px;
+
+  }
+.wid{
+margin-top: -15px;
+
+}
+.newmenu
+{
+    text-align: initial;
+}
+.col-sm-3
+{
+    overflow-y: scroll;
+    height: 700px;
+}
+.row1
+{
+    margin-top: 320px;
+    margin-right:570px;
+}
+.row2
+{
+    margin-top: 320px;
+    margin-left: 100px;
+}
+.row3
+{
+    margin-top: 320px;
+    margin-left: 685px;
+}
+.footer
+{
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    height:100px;
